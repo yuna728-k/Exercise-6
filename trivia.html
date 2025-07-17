@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>E6_Trivia</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Trivia Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Travel Trivia Quiz</h1>
+    <p>Which country does each city belong to? Test your travel knowledge!</p>
+
+    <div class="quiz-item">
+      <label for="q1">1. Suzhou</label>
+      <select id="q1">
+        <option value="">-- Select a country --</option>
+        <option value="China">China</option>
+        <option value="Japan">Japan</option>
+        <option value="South Korea">South Korea</option>
+      </select>
+      <div id="result-q1" class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <label for="q2">2. Hawaii</label>
+      <select id="q2">
+        <option value="">-- Select a country --</option>
+        <option value="USA">USA</option>
+        <option value="Australia">Australia</option>
+        <option value="Philippines">Philippines</option>
+      </select>
+      <div id="result-q2" class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <label for="q3">3. Kobe</label>
+      <select id="q3">
+        <option value="">-- Select a country --</option>
+        <option value="China">China</option>
+        <option value="Japan">Japan</option>
+        <option value="Vietnam">Vietnam</option>
+      </select>
+      <div id="result-q3" class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <label for="q4">4. Kuala Lumpur</label>
+      <select id="q4">
+        <option value="">-- Select a country --</option>
+        <option value="Thailand">Thailand</option>
+        <option value="Malaysia">Malaysia</option>
+        <option value="Indonesia">Indonesia</option>
+      </select>
+      <div id="result-q4" class="feedback"></div>
+    </div>
+
+    <div class="quiz-item">
+      <label for="q5">5. Singapore</label>
+      <select id="q5">
+        <option value="">-- Select a country --</option>
+        <option value="Malaysia">Malaysia</option>
+        <option value="Singapore">Singapore</option>
+        <option value="Brunei">Brunei</option>
+      </select>
+      <div id="result-q5" class="feedback"></div>
+    </div>
+
+    <button onclick="checkAnswers()">Submit Answers</button>
+    <button onclick="resetQuiz()">Try Again</button>
+
+    <div id="final-result" class="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
